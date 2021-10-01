@@ -1,0 +1,13 @@
+/* The styles for ngx-datatables must be imported here.
+   Set sass variables to modify ngx-datatable colors before importing styles */
+   
+@import '~@swimlane/ngx-datatable/index.css';
+// modified import for use of modified material.scss (commented out original lines)
+//   @import '~@swimlane/ngx-datatable/themes/material.scss';
+@import './package/themes/material.scss';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+/*
+  body {
+    font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  }
+*/
